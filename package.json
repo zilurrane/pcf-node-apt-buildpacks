@@ -1,8 +1,12 @@
 {
-  "name": "cf-nodejs",
+  "name": "pcf-node-apt-buildpacks",
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "odbc": "^1.4.5"
+  },
+  "engines": {
+    "node": ">=8.11.4",
+    "npm": ">=6.3.0"
   }
 }
